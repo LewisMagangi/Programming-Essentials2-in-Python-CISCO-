@@ -2,8 +2,6 @@
 
     #import module as alias
 
-import math as hesabu  
+import math as hesabu
 
-from hesabu import sin, pi
-
-print(sin(pi/2))
+print(hesabu.sin(hesabu.pi/2))
