@@ -1,0 +1,17 @@
+pi = 3.14
+
+"""define our own pi and sin;  make use of them (0.99999999 appears on the screen)"""
+
+def sin(x):
+    if 2 * x == pi:
+        return 0.99999999
+    else:
+        return None
+
+print(sin(pi / 2))
+
+""" carry out the import - the imported symbols supersede their previous definitions within the namespace; get 1.0 as a result. """
+
+from math import sin, pi  
+
+print(sin(pi / 2))
