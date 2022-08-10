@@ -1,0 +1,2 @@
+math.pi
+math.sin
