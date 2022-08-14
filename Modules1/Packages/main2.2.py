@@ -1,6 +1,9 @@
-rom sys import path
+from sys import path
+
 path.append('..\\packages')
 
-from extra.iota import funI
-print(funI())
+import extra.good.best.sigma as sig
+import extra.good.alpha as alp
 
+print(sig.funS())
+print(alp.funA())
