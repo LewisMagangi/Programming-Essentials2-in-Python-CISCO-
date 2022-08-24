@@ -1,2 +1,0 @@
-# Demonstrating the two parameter find() method:
-print('kappa'.find('a','[SPACE]'2))
