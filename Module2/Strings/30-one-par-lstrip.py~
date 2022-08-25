@@ -1,0 +1,2 @@
+# Demonstrating the parameter lstrip() method:
+print("www.cisco.com".lstrip("w."))
