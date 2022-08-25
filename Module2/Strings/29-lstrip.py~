@@ -1,2 +1,0 @@
-# Demonstrating the lstrip() method:
-print("[" + "            I'm a fantastic kid working on my goals                  ".lstrip() + "]")
