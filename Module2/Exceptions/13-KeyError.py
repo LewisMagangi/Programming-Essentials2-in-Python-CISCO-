@@ -10,4 +10,5 @@ try:
         print(ch)
 except KeyError:
     print('No such key:', ch)
+    print("Please stop trying to access a collection's non-existent element")
     raise
