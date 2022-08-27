@@ -14,4 +14,5 @@ try:
         except KeyboardInterrupt:
             print("Luckily you terminated the process otherwise an overflow error would eventually occur")
 except OverflowError:
-    print('The number is too big.')
+    print('The number is too big to be successfully stored.')
+    raise
